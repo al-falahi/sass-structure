@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  @include smMobile {
+  }
+  @include maxMobile {
+  }
+  @include minTablet {
+  }
+  @include minDesktop {
+  }
+}
+
+h1 {
+  @include smMobile {
+  }
+  @include maxMobile {
+  }
+  @include minTablet {
+  }
+  @include minDesktop {
+  }
+}
+
+h2 {
+  @include smMobile {
+  }
+  @include maxMobile {
+  }
+  @include minTablet {
+  }
+  @include minDesktop {
+  }
+}
+
+h3 {
+  @include smMobile {
+  }
+  @include maxMobile {
+  }
+  @include minTablet {
+  }
+  @include minDesktop {
+  }
+}
+
+h4 {
+  @include smMobile {
+  }
+  @include maxMobile {
+  }
+  @include minTablet {
+  }
+  @include minDesktop {
+  }
+}
+
+h5 {
+  @include smMobile {
+  }
+  @include maxMobile {
+  }
+  @include minTablet {
+  }
+  @include minDesktop {
+  }
+}
+
+h6 {
+  @include smMobile {
+  }
+  @include maxMobile {
+  }
+  @include minTablet {
+  }
+  @include minDesktop {
+  }
+}
+
+p {
+  @include smMobile {
+  }
+  @include maxMobile {
+  }
+  @include minTablet {
+  }
+  @include minDesktop {
+  }
+}

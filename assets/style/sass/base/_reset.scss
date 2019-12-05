@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img,
+video {
+  width: 100%;
+}
+
+nav {
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    @include smMobile {
+      display: block;
+    }
+    @include maxMobile {
+    }
+    @include minTablet {
+    }
+    @include minDesktop {
+    }
+  }
+}

@@ -1,0 +1,52 @@
+%btn-shared {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.btn {
+  @extend %btn-shared;
+  &-primary {
+    @include smMobile {
+    }
+    @include maxMobile {
+    }
+    @include minTablet {
+    }
+    @include minDesktop {
+    }
+  }
+  &-secondary {
+    @include smMobile {
+    }
+    @include maxMobile {
+    }
+    @include minTablet {
+    }
+    @include minDesktop {
+    }
+  }
+  &-light {
+    @include smMobile {
+    }
+    @include maxMobile {
+    }
+    @include minTablet {
+    }
+    @include minDesktop {
+    }
+  }
+  &-dark {
+    @include smMobile {
+    }
+    @include maxMobile {
+    }
+    @include minTablet {
+    }
+    @include minDesktop {
+    }
+  }
+}

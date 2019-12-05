@@ -1,0 +1,67 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  @include smMobile {
+  }
+  @include maxMobile {
+  }
+  @include minTablet {
+  }
+  @include minDesktop {
+  }
+}
+
+.d-grid {
+  display: grid;
+  @include smMobile {
+    display: block;
+  }
+  @include maxMobile {
+  }
+  @include minTablet {
+  }
+  @include minDesktop {
+  }
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  @include smMobile {
+    display: block;
+  }
+  @include maxMobile {
+  }
+  @include minTablet {
+  }
+  @include minDesktop {
+  }
+  &--1 {
+    flex: 1;
+  }
+  &--2 {
+    flex: 2;
+  }
+  &--3 {
+    flex: 3;
+  }
+  &--4 {
+    flex: 4;
+  }
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
